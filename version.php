@@ -17,7 +17,7 @@
 /**
  * Version details
  *
- * @package    block_shop
+ * @package    block_shop_access
  * @category   blocks
  * @author     Valery Fremaux <valery.fremaux@gmail.com>
  * @copyright  1999 onwards Martin Dougiamas (http://dougiamas.com)
@@ -31,3 +31,6 @@ $plugin->requires  = 2014050800;        // Requires this Moodle version
 $plugin->component = 'block_shop_access'; // Full name of the plugin (used for diagnostics)
 $plugin->release = "2.7.0 (Build 2016022500)";
 $plugin->dependencies = array('local_shop' => 2016022500, 'auth_ticket' => '2012060400');
+
+// Non moodle attributes.
+$plugin->codeincrement = '2.7.0000';
