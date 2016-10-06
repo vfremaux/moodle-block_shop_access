@@ -14,8 +14,6 @@
 // You should have received a copy of the GNU General Public License
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
-defined('MOODLE_INTERNAL') || die();
-
 /**
  * @package     block_shop_access
  * @category    blocks
@@ -23,9 +21,10 @@ defined('MOODLE_INTERNAL') || die();
  * @copyright   Valery Fremaux <valery.fremaux@gmail.com> (MyLearningFactory.com)
  * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  *
- * The form for editing block shop settings. 
+ * The form for editing block shop settings.
  * Block shop gives direct access to the shop front and back office.
  */
+defined('MOODLE_INTERNAL') || die();
 
 require_once($CFG->dirroot.'/local/shop/paymodes/paymode.class.php');
 
@@ -44,7 +43,8 @@ class block_shop_access_edit_form extends block_edit_form {
             foreach ($shops as $shop) {
                 $shopoptions[$shop->id] = format_string($shop->name);
             }
-            $mform->addElement('select', 'config_shopinstance', get_string('configshopinstance', 'block_shop_access'), $shopoptions);
+            $label = get_string('configshopinstance', 'block_shop_access');
+            $mform->addElement('select', 'config_shopinstance', $label, $shopoptions);
         } else {
             $context = context_block::instance($this->instance->id);
             $str = get_string('errornoshops', 'block_shop_access');
@@ -57,7 +57,7 @@ class block_shop_access_edit_form extends block_edit_form {
         }
     }
 
-    function set_data($defaults) {
+    public function set_data($defaults) {
         if (!$this->block->user_can_edit() && !empty($this->block->config->title)) {
             // If a title has been set but the user cannot edit it format it nicely.
             $title = $this->block->config->title;

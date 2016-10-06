@@ -14,14 +14,13 @@
 // You should have received a copy of the GNU General Public License
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
-defined('MOODLE_INTERNAL') || die();
-
 /**
  * @package   local_shop_access
  * @category  blocks
  * @author    Valery Fremaux (valery.fremaux@gmail.com)
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
+defined('MOODLE_INTERNAL') || die();
 
 $capabilities = array(
 
@@ -43,72 +42,4 @@ $capabilities = array(
         )
     ),
 
-    /**
-     * people having this capability will be able to trigger immediate
-     * product production, event if paiement reception has not been checked
-     */
-    'block/shop_access:usenoninstantpayments' => array (
-
-        'captype' => 'write',
-        'contextlevel' => CONTEXT_BLOCK,
-        'archetypes' => array(
-            'manager' => CAP_ALLOW,
-            'user' => CAP_ALLOW
-        )
-    ),
-
-    /**
-    * people having this capability will be able to trigger immediate
-    * product production, event if paiement reception has not been checked
-    */
-    'block/shop_access:paycheckoverride' => array (
-
-        'captype' => 'write',
-        'contextlevel' => CONTEXT_SYSTEM,
-        'archetypes' => array(
-            'manager' => CAP_ALLOW
-        )
-    ),
-
-    /**
-    * people having this capability will always be discounted whatever they
-    * purchase. discount applies only for logged in accounts.
-    * Capability should be applied at system level for more stable effect.
-    * this may need a special role to be defined
-    */
-    'block/shop_access:discountagreed' => array (
-        
-        'captype' => 'write',
-        'contextlevel' => CONTEXT_BLOCK,
-        'archetypes' => array(
-        )
-    ),
-
-    /**
-    * people having this capability will always be discounted with rate 2 whatever they
-    * purchase. discount applies only for logged in accounts.
-    * Capability should be applied at system level for more stable effect.
-    * this may need a special role to be defined
-    */
-    'block/shop_access:seconddiscountagreed' => array (
-        
-        'captype' => 'write',
-        'contextlevel' => CONTEXT_BLOCK,
-        'archetypes' => array(
-        )
-    ),
-
-    /**
-     * people having this capability will always be discounted with rate 3 whatever they
-     * purchase. discount applies only for logged in accounts.
-     * Capability should be applied at system level for more stable effect.
-     * this may need a special role to be defined
-     */
-    'block/shop_access:thirddiscountagreed' => array (
-        
-        'captype' => 'write',
-        'contextlevel' => CONTEXT_BLOCK,
-        'archetypes' => array(
-        )
-    ),
 );

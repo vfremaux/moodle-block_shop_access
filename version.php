@@ -15,22 +15,22 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Version details
+ * Version details.
  *
- * @package    block_shop_access
- * @category   blocks
- * @author     Valery Fremaux <valery.fremaux@gmail.com>
- * @copyright  2016 Valery Fremaux <valery.fremaux@gmail.com>
- * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     block_shop_access
+ * @category    blocks
+ * @author      Valery Fremaux <valery.fremaux@gmail.com>
+ * @copyright   2016 onwards Valery Fremaux (http://www.mylearningfactory.com)
+ * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version   = 2016051500;        // The current plugin version (Date: YYYYMMDDXX)
-$plugin->requires  = 2016051900;        // Requires this Moodle version
-$plugin->component = 'block_shop_access'; // Full name of the plugin (used for diagnostics)
+$plugin->version   = 2016051500;        // The current plugin version (Date: YYYYMMDDXX).
+$plugin->requires  = 2016051900;        // Requires this Moodle version.
+$plugin->component = 'block_shop_access'; // Full name of the plugin (used for diagnostics).
 $plugin->release = "3.1.0 (Build 2016022500)";
 $plugin->dependencies = array('local_shop' => 2016022500, 'auth_ticket' => '2012060400');
 
-// Not moodle attributes.
+// Non moodle attributes.
 $plugin->codeincrement = '3.1.0000';
