@@ -55,7 +55,7 @@ class block_shop_access extends block_base {
     public function get_content() {
         global $OUTPUT;
 
-        $this->content = new Object;
+        $this->content = new Stdclass();
         $this->content->text = '';
 
         $context = context_block::instance($this->instance->id);
