@@ -32,7 +32,7 @@ class block_shop_access extends block_base {
     }
 
     public function has_config() {
-        return true;
+        return false;
     }
 
     public function specialization() {
