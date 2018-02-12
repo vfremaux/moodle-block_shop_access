@@ -15,19 +15,19 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 $string['shop_access:addinstance'] = 'Add an instance to the course';
-$string['shop_access:myaddinstance'] = 'Add an instance to the My page';
-$string['shop_access:paycheckoverride'] = 'Overrides pay check for production';
-$string['shop_access:usenoninstantpayments'] = 'Can use non instant payment methods (delayed, offline)';
-$string['shop_access:discountagreed'] = 'Is systematicaly discounted with rate 1';
-$string['shop_access:seconddiscountagreed'] = 'Is systematicaly discounted with rate 2';
-$string['shop_access:thirddiscountagreed'] = 'Is systematicaly discounted with rate 3';
+$string['shop_access:myaddinstance'] = 'Add an instance to My page';
+$string['shop_access:paycheckoverride'] = 'Overrides payment verification for production';
+$string['shop_access:usenoninstantpayments'] = 'Can use deferred or offline methods of payment';
+$string['shop_access:discountagreed'] = 'Is systematically discounted with rate 1';
+$string['shop_access:seconddiscountagreed'] = 'Is systematically discounted with rate 2';
+$string['shop_access:thirddiscountagreed'] = 'Is systematically discounted with rate 3';
 
-$string['blocktitle'] = 'Sales services';
+$string['blocktitle'] = 'Sales department';
 $string['configshopinstance'] = 'Shop instance';
-$string['configtitle'] = 'block title (leave blanck for default title)';
+$string['configtitle'] = 'Block title (leave blank for default title)';
 $string['gotoadminlink'] = 'Go to shops administration';
 $string['errornoshops'] = 'No shops available';
-$string['errorshopnotassigned'] = 'No shops assigned to this block';
-$string['pluginname'] = 'Shop access';
+$string['errorshopnotassigned'] = 'No shops associated with this block';
+$string['pluginname'] = 'Sales department';
 $string['salesadmin'] = 'Sales administration';
 $string['shop'] = 'Shop';

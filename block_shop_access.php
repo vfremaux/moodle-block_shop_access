@@ -32,7 +32,7 @@ class block_shop_access extends block_base {
     }
 
     public function has_config() {
-        return true;
+        return false;
     }
 
     public function specialization() {
@@ -55,7 +55,7 @@ class block_shop_access extends block_base {
     public function get_content() {
         global $OUTPUT;
 
-        $this->content = new Stdclass();
+        $this->content = new StdClass();
         $this->content->text = '';
 
         $context = context_block::instance($this->instance->id);
