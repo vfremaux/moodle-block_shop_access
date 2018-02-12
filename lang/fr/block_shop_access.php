@@ -28,6 +28,6 @@ $string['configtitle'] = 'Titre du bloc (laisser vide pour le titre par défaut)
 $string['gotoadminlink'] = 'Aller à l\'administration des boutiques';
 $string['errornoshops'] = 'Pas de boutique disponible';
 $string['errorshopnotassigned'] = 'Pas de boutique associée';
-$string['pluginname'] = 'Accès boutique';
+$string['pluginname'] = 'Service commerciaux';
 $string['salesadmin'] = 'Administration des ventes';
 $string['shop'] = 'Accès à la boutique';

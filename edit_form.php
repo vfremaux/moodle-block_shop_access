@@ -46,7 +46,7 @@ class block_shop_access_edit_form extends block_edit_form {
             $label = get_string('configshopinstance', 'block_shop_access');
             $mform->addElement('select', 'config_shopinstance', $label, $shopoptions);
         } else {
-            $context = context_block::instance($this->instance->id);
+            $context = context_block::instance($this->block->instance->id);
             $str = get_string('errornoshops', 'block_shop_access');
             if (has_capability('local/shop:salesadmin', $context)) {
                 $gotoadminstr = get_string('gotoadminlink', 'block_shop_access');
