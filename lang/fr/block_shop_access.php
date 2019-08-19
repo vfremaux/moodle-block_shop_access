@@ -22,6 +22,9 @@ $string['shop:discountagreed'] = 'Est remisé pour tous ses achats avec le taux 
 $string['shop:seconddiscountagreed'] = 'Est remisé pour tous ses achats avec le taux 2';
 $string['shop:thirddiscountagreed'] = 'Est remisé pour tous ses achats avec le taux 3';
 
+// Privacy.
+$string['privacy:metadata'] = 'Le bloc Service Commerciaux ne détient directement aucune donnée relative aux utilisateurs.';
+
 $string['blocktitle'] = 'Service commerciaux';
 $string['configshopinstance'] = 'Instance de boutique';
 $string['configtitle'] = 'Titre du bloc (laisser vide pour le titre par défaut)';
