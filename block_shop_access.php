@@ -36,7 +36,7 @@ class block_shop_access extends block_base {
     }
 
     public function specialization() {
-        $this->title = isset($this->config->blocktitle) ? format_string($this->config->blocktitle) : $this->title;
+        $this->title = isset($this->config->title) ? format_string($this->config->title) : $this->title;
     }
 
     public function instance_allow_config() {
