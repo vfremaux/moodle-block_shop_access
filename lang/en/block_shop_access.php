@@ -22,12 +22,16 @@ $string['shop_access:discountagreed'] = 'Is systematically discounted with rate 
 $string['shop_access:seconddiscountagreed'] = 'Is systematically discounted with rate 2';
 $string['shop_access:thirddiscountagreed'] = 'Is systematically discounted with rate 3';
 
+// Privacy.
+$string['privacy:metadata'] = 'The Shop Access tool does not directly store any personal data about any user.';
+
 $string['blocktitle'] = 'Sales department';
 $string['configshopinstance'] = 'Shop instance';
 $string['configtitle'] = 'Block title (leave blank for default title)';
 $string['gotoadminlink'] = 'Go to shops administration';
 $string['errornoshops'] = 'No shops available';
 $string['errorshopnotassigned'] = 'No shops associated with this block';
-$string['pluginname'] = 'Sales department';
+$string['blockname'] = 'Shop: Shop access';
+$string['pluginname'] = 'Shop: Shop access';
 $string['salesadmin'] = 'Sales administration';
 $string['shop'] = 'Shop';

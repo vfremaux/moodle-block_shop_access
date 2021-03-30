@@ -22,12 +22,16 @@ $string['shop:discountagreed'] = 'Est remisé pour tous ses achats avec le taux 
 $string['shop:seconddiscountagreed'] = 'Est remisé pour tous ses achats avec le taux 2';
 $string['shop:thirddiscountagreed'] = 'Est remisé pour tous ses achats avec le taux 3';
 
+// Privacy.
+$string['privacy:metadata'] = 'Le bloc Service Commerciaux ne détient directement aucune donnée relative aux utilisateurs.';
+
 $string['blocktitle'] = 'Service commerciaux';
 $string['configshopinstance'] = 'Instance de boutique';
 $string['configtitle'] = 'Titre du bloc (laisser vide pour le titre par défaut)';
 $string['gotoadminlink'] = 'Aller à l\'administration des boutiques';
 $string['errornoshops'] = 'Pas de boutique disponible';
 $string['errorshopnotassigned'] = 'Pas de boutique associée';
-$string['pluginname'] = 'Service commerciaux';
+$string['pluginname'] = 'Boutique : Accès aux services commerciaux';
+$string['blockname'] = 'Boutique : Accès aux services commerciaux';
 $string['salesadmin'] = 'Administration des ventes';
 $string['shop'] = 'Accès à la boutique';
