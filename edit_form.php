@@ -36,7 +36,7 @@ class block_shop_access_edit_form extends block_edit_form {
         // Fields for editing HTML block title and contents.
         $mform->addElement('header', 'configheader', get_string('blocksettings', 'block'));
 
-        $mform->addElement('text', 'config_title', get_string('configtitle', 'block_shop_access'));
+        $mform->addElement('text', 'config_title', get_string('configtitle', 'block_shop_access'), ['size' => 40]);
         $mform->setType('config_title', PARAM_MULTILANG);
 
         if ($shops = $DB->get_records('local_shop')) {
