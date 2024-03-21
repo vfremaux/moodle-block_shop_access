@@ -31,8 +31,8 @@ $plugin->requires  = 2020060900;        // Requires this Moodle version.
 $plugin->component = 'block_shop_access'; // Full name of the plugin (used for diagnostics).
 $plugin->release = "3.9.0 (Build 2016022500)";
 $plugin->maturity = MATURITY_STABLE;
-$plugin->supported = [39,311];
 $plugin->dependencies = array('local_shop' => 2016022500, 'auth_ticket' => 2012060400);
+$plugin->supported = [39, 311];
 
 // Non moodle attributes.
 $plugin->codeincrement = '3.9.0000';
