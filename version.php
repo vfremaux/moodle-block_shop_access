@@ -35,4 +35,4 @@ $plugin->dependencies = array('local_shop' => 2016022500, 'auth_ticket' => '2012
 $plugin->supported = [401, 402];
 
 // Non moodle attributes.
-$plugin->codeincrement = '4.0.0000';
+$plugin->codeincrement = '4.1.0000';
